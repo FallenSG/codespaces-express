@@ -1,0 +1,14 @@
+html 
+    body 
+        form(action="/sign_up" method="POST")
+            input(type="text" name="firstName" required="true" placeholder="First Name")
+            <br/>
+            input(type="text" name="lastName" required="true" placeholder="Last Name")
+            <br/>
+            input(type="email" name="email" required="true" placeholder="Email")
+            <br/>
+            input(type="password" name="pass" required="true" placeholder="Password")
+            <br/>
+            input(type="submit", value="Submit")
+            <br/>
+            link(rel="stylesheet", href="/forgot-password" value="Sign In")
